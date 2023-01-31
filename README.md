@@ -93,4 +93,5 @@ CUDA_VISIBLE_DEVICES =1 python main_training.py \
 **Note:** This code also contains an extra loss function, the *Histogram Loss* which can be enabled changing the 
 last value from the list of loss weights in argument *--loss_weights*. By default, we set the best configuration 
 we obtained for the regularization terms $\alpha$ = 0.25. 
-.
+
+nofweoh

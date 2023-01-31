@@ -1,0 +1,3 @@
+argparse>=1.4.0
+opencv-python>=4.5.5.62
+wandb>=0.13.9

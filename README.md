@@ -120,11 +120,11 @@ you can find the links to the weights of each model trained with different split
 (and tested on underexposure test set), ii) Overexposure only (and tested on overexposure test set), and iii) both 
 combined (and tested in both exposure errors separately). 
 
-|      Model      |                                  Description                                   | ModelWeights |
-|:---------------:|:------------------------------------------------------------------------------:|:------------:|
-|    Underexp     |                   Trained with underexp, tested on underexp                    |   [link](https://drive.google.com/file/d/1GS65paskKKghUlRVyIzRupEWX9NZy0QE/view?usp=share_link)   |
-|     Overexp     |                    Trained with overexp, tested on overexp                     |   [link](https://drive.google.com/file/d/1O33a7IkP5baaFvI-mj3L_xEDMMdbU30V/view?usp=share_link)   |
-| Combined $^{1}$ | Trained with both datasets combined, tested on underexp and overexp separately |   [link](https://drive.google.com/file/d/1Rx-SAQBmNw1ACHyxUKnzYiIzTwfm5ah0/view?usp=share_link)   |
+|     Model      |                                  Description                                   | ModelWeights |
+|:--------------:|:------------------------------------------------------------------------------:|:------------:|
+|    Underexp    |                   Trained with underexp, tested on underexp                    |   [link](https://drive.google.com/file/d/1GS65paskKKghUlRVyIzRupEWX9NZy0QE/view?usp=share_link)   |
+|    Overexp     |                    Trained with overexp, tested on overexp                     |   [link](https://drive.google.com/file/d/1O33a7IkP5baaFvI-mj3L_xEDMMdbU30V/view?usp=share_link)   |
+| Combined$^{1}$ | Trained with both datasets combined, tested on underexp and overexp separately |   [link](https://drive.google.com/file/d/1Rx-SAQBmNw1ACHyxUKnzYiIzTwfm5ah0/view?usp=share_link)   |
 
 >$^{1}$ For reproducing our work, you can download the combined dataset used for training and for validation
 > here ([here](https://drive.google.com/drive/folders/1ULuLG4YQwUKlr-BJnWOPyM5BK35AEF2v?usp=share_link)).
@@ -154,4 +154,5 @@ frames for image enhancement”, Mendeley Data, V2, doi: 10.17632/3j3tmghw33.2
 
 ## Contact
 
-email: [caaxgave@gmail.com](caaxgave@gmail.com)
+email: Axel García [caaxgave@gmail.com](caaxgave@gmail.com), Ricardo Espinosa [respinosa@up.edu.mx](respinosa@up.edu.mx), 
+Gilberto Ochoa [gilberto.ochoa@tec.mx](gilberto.ochoa@tec.mx).

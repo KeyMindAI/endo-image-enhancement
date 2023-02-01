@@ -90,8 +90,34 @@ CUDA_VISIBLE_DEVICES =1 python main_training.py \
                                 --loss_weights [0.25, 0.25, 1.0, 0.25, 0.0]
 ~~~
 
-**Note:** This code also contains an extra loss function, the *Histogram Loss* which can be enabled changing the 
+>**Note:** This code also contains an extra loss function, the *Histogram Loss* which can be enabled changing the 
 last value from the list of loss weights in argument *--loss_weights*. By default, we set the best configuration 
-we obtained for the regularization terms $\alpha$ = 0.25. 
+we obtained for the regularization terms $\alpha$, $\beta$, $\delta$= 0.25, $\gamma$ = 1.0, and $\epsilon$ which
+corresponds to regularization term for *histo_loss* is set to 0.0.
 
-nofweoh
+## Evaluation
+
+The evaluation of the model can be visualized in real-time with the package *wandb* from the platform Weights and 
+Biases. You will be able to see the performance of the fourth losses, however, by uncommenting the lines of 
+Histo_loss in the experiment logs and train report, you can follow the performance of this loss also.
+
+## Test
+
+For testing on corrupted frames, run 
+
+~~~
+CUDA_VISIBLE_DEVICES =1 python test_model.py \
+                                --model path/to/model.pth \
+                                --input_dir  "/path/to/test/" \
+                                --output_dir "/path/to/output_dir/" 
+~~~
+
+## Model weights
+
+## Citation
+
+## Refenrences
+
+## Contact
+
+email: [caaxgave@gmail.com](caaxgave@gmail.com)

@@ -120,15 +120,37 @@ you can find the links to the weights of each model trained with different split
 (and tested on underexposure test set), ii) Overexposure only (and tested on overexposure test set), and iii) both 
 combined (and tested in both exposure errors separately). 
 
-|Model| Description | ModelWeights|
-|Underexp| Trained with underexp, tested on underexp| a link |
-|Overexp| Trained with underexp, tested on underexp| a link |
-|Combined| Trained with underexp, tested on underexp| a link |
+|      Model      |                                  Description                                   | ModelWeights |
+|:---------------:|:------------------------------------------------------------------------------:|:------------:|
+|    Underexp     |                   Trained with underexp, tested on underexp                    |   [link](https://drive.google.com/file/d/1GS65paskKKghUlRVyIzRupEWX9NZy0QE/view?usp=share_link)   |
+|     Overexp     |                    Trained with overexp, tested on overexp                     |   [link](https://drive.google.com/file/d/1O33a7IkP5baaFvI-mj3L_xEDMMdbU30V/view?usp=share_link)   |
+| Combined $^{1}$ | Trained with both datasets combined, tested on underexp and overexp separately |   [link](https://drive.google.com/file/d/1Rx-SAQBmNw1ACHyxUKnzYiIzTwfm5ah0/view?usp=share_link)   |
 
+>$^{1}$ For reproducing our work, you can download the combined dataset used for training and for validation
+> here ([here](https://drive.google.com/drive/folders/1ULuLG4YQwUKlr-BJnWOPyM5BK35AEF2v?usp=share_link)).
 
 ## Citation
 
-## Refenrences
+~~~
+@article{garcia2022multi, title={Multi-Scale Structural-aware Exposure Correction for Endoscopic Imaging},
+         author={Garcia-Vega, Axel and Espinosa, Ricardo and Ramirez-Guzman, Luis and Bazin, Thomas and Falcon-Morales, Luis and Ochoa-Ruiz, Gilberto and Lamarque, Dominique and Daul, Christian},
+         journal={arXiv preprint arXiv:2210.15033},
+         year={2022}
+}
+~~~
+
+## References
+
+1. García-Vega, A., Espinosa, R., Ochoa-Ruiz, G., Bazin, T., Falcón-Morales, L., Lamarque, D., & Daul, C. (2022, 
+October). A Novel Hybrid Endoscopic Dataset for Evaluating Machine Learning-Based Photometric Image Enhancement Models. 
+In Advances in Computational Intelligence: 21st Mexican International Conference on Artificial Intelligence, 
+MICAI 2022, Monterrey, Mexico, October 24–29, 2022, Proceedings, Part I (pp. 267-281). Cham: Springer Nature Switzerland.
+
+2. Afifi, M., Derpanis, K. G., Ommer, B., & Brown, M. S. (2021). Learning multi-scale photo exposure correction. 
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9157-9167).
+
+3. Garcia-Vega, Axel; Ochoa, Gilberto; Espinosa, Ricardo (2022), “Endoscopic real-synthetic over- and underexposed 
+frames for image enhancement”, Mendeley Data, V2, doi: 10.17632/3j3tmghw33.2
 
 ## Contact
 

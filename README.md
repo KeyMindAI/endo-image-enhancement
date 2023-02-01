@@ -118,13 +118,13 @@ In accordance with the quantitative results obtained [Table II](#quantitative-re
 fine-tuning, outperforms from the original LMSPEC and the proposal without hyper-parmeter tuning. In the following table
 you can find the links to the weights of each model trained with different splits of the dataset: i) underexposure only
 (and tested on underexposure test set), ii) Overexposure only (and tested on overexposure test set), and iii) both 
-combined (and tested in both exposure errors separately). 
+combined $^{1}$ (and tested in both exposure errors separately). 
 
-|     Model      |                                  Description                                   | ModelWeights |
-|:--------------:|:------------------------------------------------------------------------------:|:------------:|
-|    Underexp    |                   Trained with underexp, tested on underexp                    |   [link](https://drive.google.com/file/d/1GS65paskKKghUlRVyIzRupEWX9NZy0QE/view?usp=share_link)   |
-|    Overexp     |                    Trained with overexp, tested on overexp                     |   [link](https://drive.google.com/file/d/1O33a7IkP5baaFvI-mj3L_xEDMMdbU30V/view?usp=share_link)   |
-| Combined$^{1}$ | Trained with both datasets combined, tested on underexp and overexp separately |   [link](https://drive.google.com/file/d/1Rx-SAQBmNw1ACHyxUKnzYiIzTwfm5ah0/view?usp=share_link)   |
+|     Model      |                                   Description                                   | ModelWeights |
+|:--------------:|:-------------------------------------------------------------------------------:|:------------:|
+|    Underexp    |                    Trained with underexp, tested on underexp                    |   [link](https://drive.google.com/file/d/1GS65paskKKghUlRVyIzRupEWX9NZy0QE/view?usp=share_link)   |
+|    Overexp     |                     Trained with overexp, tested on overexp                     |   [link](https://drive.google.com/file/d/1O33a7IkP5baaFvI-mj3L_xEDMMdbU30V/view?usp=share_link)   |
+| Combined | Trained with both datasets combined $^{1}$, tested on underexp and overexp separately |   [link](https://drive.google.com/file/d/1Rx-SAQBmNw1ACHyxUKnzYiIzTwfm5ah0/view?usp=share_link)   |
 
 >$^{1}$ For reproducing our work, you can download the combined dataset used for training and for validation
 > here ([here](https://drive.google.com/drive/folders/1ULuLG4YQwUKlr-BJnWOPyM5BK35AEF2v?usp=share_link)).

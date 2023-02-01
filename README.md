@@ -127,7 +127,7 @@ combined $^{1}$ (and tested in both exposure errors separately).
 | Combined | Trained with both datasets combined $^{1}$, tested on underexp and overexp separately |   [link](https://drive.google.com/file/d/1Rx-SAQBmNw1ACHyxUKnzYiIzTwfm5ah0/view?usp=share_link)   |
 
 >$^{1}$ For reproducing our work, you can download the combined dataset used for training and for validation
-> here ([here](https://drive.google.com/drive/folders/1ULuLG4YQwUKlr-BJnWOPyM5BK35AEF2v?usp=share_link)).
+> [here](https://drive.google.com/drive/folders/1ULuLG4YQwUKlr-BJnWOPyM5BK35AEF2v?usp=share_link).
 
 ## Citation
 

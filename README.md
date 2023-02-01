@@ -112,7 +112,19 @@ CUDA_VISIBLE_DEVICES =1 python test_model.py \
                                 --output_dir "/path/to/output_dir/" 
 ~~~
 
-## Model weights
+## Model Weights
+
+In accordance with the quantitative results obtained [Table II](#quantitative-results), our baseline (EndoLMPSEC) plus 
+fine-tuning, outperforms from the original LMSPEC and the proposal without hyper-parmeter tuning. In the following table
+you can find the links to the weights of each model trained with different splits of the dataset: i) underexposure only
+(and tested on underexposure test set), ii) Overexposure only (and tested on overexposure test set), and iii) both 
+combined (and tested in both exposure errors separately). 
+
+|Model| Description | ModelWeights|
+|Underexp| Trained with underexp, tested on underexp| a link |
+|Overexp| Trained with underexp, tested on underexp| a link |
+|Combined| Trained with underexp, tested on underexp| a link |
+
 
 ## Citation
 
